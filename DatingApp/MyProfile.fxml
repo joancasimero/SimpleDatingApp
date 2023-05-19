@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="1013.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyProfileController">
+   <children>
+      <CheckBox fx:id="myCheckBox" layoutX="415.0" layoutY="258.0" mnemonicParsing="false" onAction="#looking" text="Serious/Not Serious">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </CheckBox>
+      <ImageView fx:id="myImageView" fitHeight="109.0" fitWidth="111.0" layoutX="398.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/ekis.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="dateButton" layoutX="386.0" layoutY="517.0" mnemonicParsing="false" onAction="#dateNow" prefHeight="67.0" prefWidth="241.0" text="Date Now!" textFill="#df1f1f" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="40.0" />
+         </font>
+      </Button>
+      <Label layoutX="409.0" layoutY="141.0" prefHeight="67.0" prefWidth="371.0" text="Joan Casimero" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="56.0" />
+         </font>
+      </Label>
+      <Label layoutX="861.0" layoutY="141.0" prefHeight="54.0" prefWidth="71.0" text="19">
+         <font>
+            <Font name="Bell MT Bold" size="56.0" />
+         </font>
+      </Label>
+      <Label layoutX="409.0" layoutY="207.0" text="Quezon City">
+         <font>
+            <Font name="Bell MT Italic" size="28.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="r1" layoutX="415.0" layoutY="375.0" mnemonicParsing="false" onAction="#selectPet" text="meow person">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="petpreference" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="r2" layoutX="566.0" layoutY="375.0" mnemonicParsing="false" onAction="#selectPet" text="arf person" toggleGroup="$petpreference">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </RadioButton>
+      <ImageView fx:id="petImageView" fitHeight="158.0" fitWidth="96.0" layoutX="523.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/cat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="385.0" fitWidth="409.0" layoutX="16.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/joan.jpg" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="r3" layoutX="415.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectPersonality" prefHeight="34.0" prefWidth="117.0" text="Introvert">
+         <font>
+            <Font name="Bell MT Italic" size="19.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="personalitypreference" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="r4" layoutX="533.0" layoutY="300.0" mnemonicParsing="false" onAction="#selectPersonality" text="Ambivert" toggleGroup="$personalitypreference">
+         <font>
+            <Font name="Bell MT Italic" size="19.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="r5" layoutX="660.0" layoutY="300.0" mnemonicParsing="false" onAction="#selectPersonality" text="Extrovert" toggleGroup="$personalitypreference">
+         <font>
+            <Font name="Bell MT Italic" size="19.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="409.0" layoutY="339.0" prefHeight="34.0" prefWidth="163.0" text="Preferences:">
+         <font>
+            <Font name="Bell MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="personalityImageView" fitHeight="109.0" fitWidth="84.0" layoutX="641.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/introvert.png" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="r6" layoutX="738.0" layoutY="375.0" mnemonicParsing="false" onAction="#selectEntertainment" text="movies">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="entertainmentpreference" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="r7" layoutX="842.0" layoutY="375.0" mnemonicParsing="false" onAction="#selectEntertainment" text="books" toggleGroup="$entertainmentpreference">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </RadioButton>
+      <ImageView fx:id="entertainmentImageView" fitHeight="120.0" fitWidth="84.0" layoutX="751.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/movie.png" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="r8" layoutX="619.0" layoutY="449.0" mnemonicParsing="false" onAction="#selectTime" text="day">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="timepreference" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="r9" layoutX="715.0" layoutY="449.0" mnemonicParsing="false" onAction="#selectTime" text="night" toggleGroup="$timepreference">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </RadioButton>
+      <ImageView fx:id="timeImageView" fitHeight="154.0" fitWidth="109.0" layoutX="858.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/day.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

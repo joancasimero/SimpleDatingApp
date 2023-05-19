@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="685.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene1Controller">
+   <children>
+      <Button fx:id="myButton" layoutX="144.0" layoutY="378.0" mnemonicParsing="false" onAction="#interested" prefHeight="69.0" prefWidth="119.0" text="DATE" textFill="#d11b1b" underline="true">
+         <font>
+            <Font name="Bell MT Italic" size="28.0" />
+         </font></Button>
+      <ImageView fx:id="myImageView" fitHeight="215.0" fitWidth="215.0" layoutX="235.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0">
+         <image>
+            <Image url="@images/alexa.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Button fx:id="no" layoutX="422.0" layoutY="377.0" mnemonicParsing="false" onAction="#pass" prefHeight="70.0" prefWidth="119.0" text="PASS" textFill="#df3131" underline="true">
+         <font>
+            <Font name="Bell MT Italic" size="28.0" />
+         </font></Button>
+      <Label layoutX="144.0" layoutY="14.0" text="Match up!" textAlignment="CENTER" textFill="#d91b1b" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="89.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="128.0" fitWidth="132.0" layoutX="25.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/cupid2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="143.0" fitWidth="128.0" layoutX="541.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/cupid3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
