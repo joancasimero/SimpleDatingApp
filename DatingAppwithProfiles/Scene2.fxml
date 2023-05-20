@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="944.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene2Controller">
+   <children>
+      <ImageView fx:id="alexa" fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="180.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/alexa.jpg" />
+         </image>
+         <effect>
+            <Blend />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="lisa" fitHeight="150.0" fitWidth="200.0" layoutX="293.0" layoutY="180.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/lisa.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sana" fitHeight="150.0" fitWidth="200.0" layoutX="513.0" layoutY="354.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/sana.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="olivia" fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="354.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/olivia.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sabrina" fitHeight="150.0" fitWidth="200.0" layoutX="293.0" layoutY="354.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/sabrina.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mikey" fitHeight="150.0" fitWidth="200.0" layoutX="513.0" layoutY="180.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/mikey.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="noze" fitHeight="150.0" fitWidth="200.0" layoutX="737.0" layoutY="180.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/noze.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="valkyrae" fitHeight="150.0" fitWidth="200.0" layoutX="737.0" layoutY="354.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/valkyrae.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="164.0" layoutY="24.0" text="You're matched!" textFill="#d40d0d">
+         <font>
+            <Font name="Bell MT Bold" size="85.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="112.0" text="Make a move within 24 hours, or say bye bye!!" textFill="#fff5f5">
+         <font>
+            <Font name="Bell MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/heart2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="781.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/heart2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="alexaButton" layoutX="68.0" layoutY="180.0" mnemonicParsing="false" onAction="#alexaProfile" opacity="0.05" prefHeight="150.0" prefWidth="149.0" />
+      <Button fx:id="lisaButton" layoutX="293.0" layoutY="178.0" mnemonicParsing="false" onAction="#lisaProfile" opacity="0.05" prefHeight="150.0" prefWidth="150.0" />
+      <Button fx:id="mikeyButton" layoutX="514.0" layoutY="182.0" mnemonicParsing="false" onAction="#mikeyProfile" opacity="0.05" prefHeight="150.0" prefWidth="149.0" />
+      <Button fx:id="nozeButton" layoutX="737.0" layoutY="180.0" mnemonicParsing="false" onAction="#nozeProfile" opacity="0.05" prefHeight="150.0" prefWidth="149.0" />
+      <Button fx:id="oliviaButton" layoutX="68.0" layoutY="355.0" mnemonicParsing="false" onAction="#oliviaProfile" opacity="0.05" prefHeight="150.0" prefWidth="149.0" />
+      <Button fx:id="sabrinaButton" layoutX="293.0" layoutY="355.0" mnemonicParsing="false" onAction="#sabrinaProfile" opacity="0.05" prefHeight="150.0" prefWidth="149.0" />
+      <Button fx:id="sanaButton" layoutX="513.0" layoutY="353.0" mnemonicParsing="false" onAction="#sanaProfile" opacity="0.05" prefHeight="150.0" prefWidth="149.0" />
+      <Button fx:id="valkyraeButton" layoutX="737.0" layoutY="353.0" mnemonicParsing="false" onAction="#valkyraeProfile" opacity="0.05" prefHeight="150.0" prefWidth="149.0" />
+   </children>
+</AnchorPane>

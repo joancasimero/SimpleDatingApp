@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="noze" fitHeight="235.0" fitWidth="231.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/noze.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="69.0" layoutX="255.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/love.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="177.0" fitWidth="82.0" layoutX="329.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/dog.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="39.0" layoutX="423.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/ambivert.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="46.0" layoutX="470.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/movie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="69.0" layoutX="516.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/day.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="253.0" layoutY="99.0" text="Noh JiHye" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="516.0" layoutY="104.0" text="25">
+         <font>
+            <Font name="Bell MT Italic" size="49.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="161.0" prefHeight="30.0" prefWidth="157.0" text="South Korea">
+         <font>
+            <Font name="Bell MT Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="191.0" text="Serious" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="388.0" layoutY="191.0" text="Ambivert">
+         <font>
+            <Font name="Bell MT Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="254.0" layoutY="230.0" text="Preferences:">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="261.0" text="arf person            movie             day">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="37.0" layoutY="270.0" mnemonicParsing="false" text="Hit her up &lt;3" textFill="#cc0b0b" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="82.0" fitWidth="84.0" layoutX="493.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/noze2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="82.0" fitWidth="84.0" layoutX="367.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/noze3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="82.0" fitWidth="84.0" layoutX="245.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/noze4.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
